@@ -1,0 +1,40 @@
+.color {
+	color:yellow;
+}
+	
+.box{
+	display: flex;
+  align-items: center;
+  justify-content: center;
+}	
+	
+	
+.callbutton{
+	position: relative;
+	
+ 
+	
+}	
+	
+.callbutton .btn {
+ position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  background-color:#ee477f;
+  color: white;
+  font-size: 18px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  margin-bottom: 3px;
+}
+
+.callbutton .btn:hover {
+  background-color: #bf2f5f;
+
+}
